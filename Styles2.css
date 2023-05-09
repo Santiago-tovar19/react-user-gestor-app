@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: rgb(33, 33, 57);
+}
+
+.title-h2 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  font-size: 45px;
+  color: white;
+  font-weight: 400;
+}
+
+.btn-agregar {
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+  width: 250px;
+  background-color: green;
+  padding: 8px 10px 8px 10px;
+  border-radius: 20px;
+}
+
+.btn-agregar:hover {
+  background-color: rgb(12, 153, 12);
+}
+
+.crud-table {
+  border-collapse: collapse;
+  margin-top: 30px;
+  min-width: 600px;
+  font-weight: 100;
+  color: white;
+  text-align: center;
+}
+
+.crud-table thead {
+  height: 30px;
+  background-color: rgba(84, 40, 187, 0.521);
+}
+
+.crud-table th {
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  padding: 8px;
+}
+
+.crud-table tbody tr td {
+  text-align: center;
+  padding: 12px;
+
+  border-bottom: 1px solid rgba(153, 146, 146, 0.452);
+}
+
+.crud-table tbody tr:nth-of-type(even) {
+  background-color: #73737328;
+}
+
+.label {
+  color: white;
+}
+
+.button-create {
+  margin-left: 15px;
+}
