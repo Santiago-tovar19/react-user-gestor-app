@@ -11,5 +11,3 @@ para este proyecto utlizaremos react-18 creado con vite , usaremos firebase como
 4. utlizaremos alertas pre-diseñadas en este proyecto, SweetAlert2 es el eligido en este caso, ( yarn add --save sweetalert2 sweetalert2-react-content) para instalarlo
 
 5. se añade la libreria de fontawesome en el index de la raiz de nuestro proyecto.
-
-# Diseñando estructura de directorio

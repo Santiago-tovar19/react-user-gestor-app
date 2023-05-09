@@ -18,7 +18,6 @@ const MySwal = withReactContent(Swal);
 let num = 2;
 
 export const ShowUser = () => {
-  
   const [users, setUsers] = useState([]);
 
   const usersCollection = collection(db, "users");
@@ -37,8 +36,8 @@ export const ShowUser = () => {
 
   const confirmDelete = (id) => {
     Swal.fire({
-      title: "Are you sure?",
-      text: "You won't be able to revert this!",
+      title: "¿Estas seguro?",
+      text: "Una vez eliminado los datos se perderan...",
       icon: "warning",
       showCancelButton: true,
       confirmButtonColor: "#3085d6",
